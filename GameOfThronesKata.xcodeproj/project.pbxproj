@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32C09795228F012E00F5305B /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C09794228F012E00F5305B /* CustomCell.xib */; };
+		32C09798228F055000F5305B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C09797228F055000F5305B /* TableViewCell.m */; };
 		9BD9D5531F472D310057AB96 /* Character detail screen measurements.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD9D5501F472D310057AB96 /* Character detail screen measurements.png */; };
 		9BD9D5541F472D310057AB96 /* Character detail screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD9D5511F472D310057AB96 /* Character detail screen.png */; };
 		9BD9D5551F472D310057AB96 /* character-detail-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BD9D5521F472D310057AB96 /* character-detail-response.json */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32C09794228F012E00F5305B /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		32C09796228F055000F5305B /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		32C09797228F055000F5305B /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		9BD9D5501F472D310057AB96 /* Character detail screen measurements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Character detail screen measurements.png"; sourceTree = "<group>"; };
 		9BD9D5511F472D310057AB96 /* Character detail screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Character detail screen.png"; sourceTree = "<group>"; };
 		9BD9D5521F472D310057AB96 /* character-detail-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "character-detail-response.json"; sourceTree = "<group>"; };
@@ -103,6 +108,9 @@
 				9C11057C1F272F240022F032 /* LaunchScreen.storyboard */,
 				9C11057F1F272F240022F032 /* Info.plist */,
 				9C1105801F272F240022F032 /* main.m */,
+				32C09794228F012E00F5305B /* CustomCell.xib */,
+				32C09796228F055000F5305B /* TableViewCell.h */,
+				32C09797228F055000F5305B /* TableViewCell.m */,
 			);
 			path = GameOfThronesKata;
 			sourceTree = "<group>";
@@ -218,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C09795228F012E00F5305B /* CustomCell.xib in Resources */,
 				9BD9D5551F472D310057AB96 /* character-detail-response.json in Resources */,
 				9BD9D5531F472D310057AB96 /* Character detail screen measurements.png in Resources */,
 				9C11057B1F272F240022F032 /* Assets.xcassets in Resources */,
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1105A11F2730A40022F032 /* GRKSiblings.m in Sources */,
+				32C09798228F055000F5305B /* TableViewCell.m in Sources */,
 				9C1105761F272F240022F032 /* ViewController.m in Sources */,
 				9C1105811F272F240022F032 /* main.m in Sources */,
 				9C1105A01F2730A40022F032 /* GRKCharacterDetailResponse.m in Sources */,
@@ -278,7 +288,6 @@
 		9C11057C1F272F240022F032 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C11057D1F272F240022F032 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
