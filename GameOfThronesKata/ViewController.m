@@ -10,6 +10,8 @@
 
 
 #pragma TableView methods
+
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 2;
@@ -62,5 +64,10 @@
     if (section == 1)
         return @"SIBLINGS";
     return @"";
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 60.0;
 }
 @end
